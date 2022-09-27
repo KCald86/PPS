@@ -768,7 +768,7 @@ label {
 }
 
 .testimonials .item {
-  padding-top: 33px;
+  padding-block: 33px;
 }
 .testimonials .thumb {
   float: left;
@@ -785,9 +785,11 @@ label {
   }
 }
 .testimonials .text {
-  border: 1px solid #cecece;
-  font-size: 14px;
-  font-style: italic;
+  border: 6px solid #cecece;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(43, 128, 189);
+  font-size: 18px;
+  font-weight: 700;
   line-height: 24px;
   margin-left: 50px;
   padding: 27px 30px 29px 142px;
@@ -801,7 +803,7 @@ label {
 }
 .testimonials figcaption {
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   padding-top: 15px;
   text-align: center;
@@ -812,6 +814,7 @@ label {
 }
 .testimonials span {
   font-size: 12px;
+  color:rgb(67, 66, 66);
 }
 .testimonials .slick-slide {
   margin: 0 15px;
